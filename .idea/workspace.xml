@@ -26,6 +26,31 @@
     &quot;assignee&quot;: &quot;dailephd&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1738751952" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1738751951" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/dailephd/mywebsite.git&quot;,
@@ -49,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "22.13.1",
     "javascript.nodejs.core.library.typings.version": "22.13.1",
@@ -115,7 +140,7 @@
       <workItem from="1738701066435" duration="272000" />
       <workItem from="1738701360644" duration="3645000" />
       <workItem from="1738705174829" duration="8360000" />
-      <workItem from="1738745257741" duration="1081000" />
+      <workItem from="1738745257741" duration="1735000" />
     </task>
     <servers />
   </component>
