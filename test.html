@@ -1,0 +1,56 @@
+<div class="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">Job Search</h2>
+        <form class="space-y-4">
+            <!-- Job Title Input -->
+            <div>
+                <label for="jobTitle" class="block text-gray-700 font-medium mb-2">Job Title</label>
+                <input
+                        type="text"
+                        id="jobTitle"
+                        name="jobTitle"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-prism-green"
+                        placeholder="e.g., Software Developer"
+                />
+            </div>
+
+            <!-- Location Input -->
+            <div>
+                <label for="location" class="block text-gray-700 font-medium mb-2">Location</label>
+                <input
+                        type="text"
+                        id="location"
+                        name="location"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-prism-green"
+                        placeholder="e.g., New York"
+                />
+            </div>
+
+            <!-- Job Type Dropdown -->
+            <div>
+                <label for="jobType" class="block text-gray-700 font-medium mb-2">Job Type</label>
+                <select
+                        id="jobType"
+                        name="jobType"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-prism-green"
+                >
+                    <option value="">Select Job Type</option>
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                </select>
+            </div>
+
+            <!-- Search Button -->
+            <div>
+                <button
+                        type="submit"
+                        class="w-full bg-prism-green text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-prism-dark-green transition ease-in-out"
+                >
+                    Search Jobs
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
