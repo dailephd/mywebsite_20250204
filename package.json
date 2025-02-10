@@ -7,12 +7,15 @@
     "build": "next build",
     "start": "next start",
     "heroku-postbuild": "npm install && next build",
-    "build-export": "next build & next export",
-    "lint": "next lint"
+    "build-export": "next build && next export",
+    "export": "next export",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out -r git@github.com:dailephd/mywebsite_20250204.git"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "autoprefixer": "^10.4.20",
     "next": "^15.1.6",
     "nodemailer": "^6.9.14",
     "react": "^18",
@@ -24,22 +27,23 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
+    "gh-pages": "^6.3.0",
     "postcss": "^8"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dailephd/mywebsite.git"
+    "url": "git+https://github.com/dailephd/mywebsite_20250204.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dailephd/mywebsite/issues"
+    "url": "https://github.com/dailephd/mywebsite_20250204/issues"
   },
-  "homepage": "https://github.com/dailephd/mywebsite#readme",
+  "homepage": "https://www.dailephd.com",
   "engines": {
-    "node": "18.19.0",
-    "npm": "9.2.0"
+    "node": ">=20.0.0",
+    "npm": ">=8.0.0"
   }
 }
