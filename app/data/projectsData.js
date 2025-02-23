@@ -27,6 +27,35 @@ const projects = [
             ],
         github: "https://github.com/dailephd/Smart_Tutor"
     },
+    {
+        title: "Graph Neural Network to predict water depth level in a simulated sewage network.",
+        details: (
+            <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
+                <li><strong>Project:</strong> Graph Neural Network to predict water depth level in a simulated
+                    sewage network.
+                    <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+                        <li><strong>Description:</strong> Implemented 5 graph neural network models: GCNConv
+                            ,GRU-GCNConv, GCNConv-LSTM, MPNN, GAT-Transformer on time series data of water depth levels in a
+                            Storm Water Management Model (SWMM).
+                        </li>
+                        <li><strong>Role:</strong> Sole Developer.</li>
+                        <li><strong>Technologies:</strong> PyTorch Geometric, Matplotlib, Plotly.</li>
+                        <li><strong>Duration:</strong> January 2024 - April 2024.</li>
+                        <li><strong>Team size:</strong> 1.</li>
+                    </ul>
+                </li>
+            </ul>
+        ),
+        gallery: [
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353592/mpnn_xyatyf.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353591/gru_gcn_fu7lou.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353590/gcn_lstm_bxt9lo.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353590/gat_transformer_lqd3lt.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353590/gcnconv_jkkwa8.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1740353590/all_training_d5qptr.png",
+        ],
+        github: "https://github.com/dailephd/gnn_swmm_water_depth"
+    },
 
     {
         title: "Deep learning for 16S rRNA gene copy number prediction",
@@ -47,27 +76,6 @@ const projects = [
                         <li><strong>Technologies:</strong> TensorFlow, PyTorch, Scikit-learn, Matplotlib.</li>
                         <li><strong>Duration:</strong> September 2023 - August 2024.</li>
                         <li><strong>Team size:</strong> 2.</li>
-                    </ul>
-                </li>
-            </ul>
-        ),
-    },
-    {
-        title: "Graph Neural Network to predict water depth level in a simulated sewage network.",
-        details: (
-            <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
-                <li><strong>Project:</strong> Graph Neural Network to predict water depth level in a simulated
-                    sewage network.
-                    <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
-                        <li><strong>Description:</strong> Implemented four graph neural network models: single-layer
-                            linear GNN, multi-layer linear GNN, message-passing GNN, and RNN-graph attention
-                            network, on time series data of water depth levels in a simulated sewage network. The
-                            best model was a multi-layer GNN with MAE = 0.0017 and MSE = 0.6 x 10<sup>-5</sup>.
-                        </li>
-                        <li><strong>Role:</strong> Sole Developer.</li>
-                        <li><strong>Technologies:</strong> PyTorch Geometric, Matplotlib.</li>
-                        <li><strong>Duration:</strong> January 2024 - April 2024.</li>
-                        <li><strong>Team size:</strong> 1.</li>
                     </ul>
                 </li>
             </ul>

@@ -61,7 +61,7 @@ export default function Projects() {
                                     </a>
                                 </div>
                             </div>
-                        </div> {/* ✅ Correctly closed the div */}
+                        </div>
                     </div>
                 ))}
             </div>

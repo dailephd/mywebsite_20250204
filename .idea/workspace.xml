@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84ab118-6a3c-4430-846d-4c5dafceda25" name="Changes" comment="" />
+    <list default="true" id="b84ab118-6a3c-4430-846d-4c5dafceda25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,7 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dailephd/mywebsite.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:dailephd/mywebsite_20250204.git&quot;,
     &quot;accountId&quot;: &quot;e24d74a5-ad3e-40c9-8efa-0391d773e421&quot;
   }
 }</component>
@@ -76,14 +78,14 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "22.13.1",
-    "javascript.nodejs.core.library.typings.version": "22.13.1",
-    "last_opened_file_path": "/media/dailephd/Windows/COSC_6370_OnlyDevs_SmartTutor_Source_Code_v41",
+    "javascript.nodejs.core.library.configured.version": "18.19.0",
+    "javascript.nodejs.core.library.typings.version": "18.19.76",
+    "last_opened_file_path": "C:/cosc_6326_computer_vision/exportToHTML/cosc_6326_HW1.ipynb.html",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/dailephd/.config/JetBrains/WebStorm2024.3/node/versions/22.13.1/bin/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
     "ts.external.directory.path": "/home/dailephd/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
@@ -103,6 +105,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/app/projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,6 +147,10 @@
       <workItem from="1738701360644" duration="3645000" />
       <workItem from="1738705174829" duration="8360000" />
       <workItem from="1738745257741" duration="12557000" />
+      <workItem from="1739183566911" duration="11479000" />
+      <workItem from="1739570897688" duration="601000" />
+      <workItem from="1740168099285" duration="89000" />
+      <workItem from="1740352972220" duration="813000" />
     </task>
     <servers />
   </component>
