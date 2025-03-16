@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from 'next/link';
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+
 import './globals.css';
 import { FaBars, FaTimes, FaHome, FaUser, FaBriefcase, FaTools, FaGraduationCap, FaProjectDiagram, FaBook, FaEnvelope } from 'react-icons/fa';
 
@@ -62,6 +64,7 @@ export default function RootLayout({ children }) {
         {/* Main Content with Left Padding for Sidebar */}
         <main className="ml-0 sm:ml-64 flex-grow p-4 sm:p-8 bg-gray-100 min-h-screen transition-all duration-300 ease-in-out">
             {children}
+            <Analytics/>
         </main>
 
         </body>
