@@ -58,6 +58,43 @@ const projects = [
     },
 
     {
+        title: "Automated Differential Expression Analysis of the Human Brain " +
+            "Proteome in Alzheimer's and Parkinson's Patients. " +
+            "Integrating Frequentist and Bayesian Methods",
+        details: (
+            <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
+                <li>
+                    <strong>Project:</strong>Automated Differential Expression Analysis of the Human Brain
+                    Proteome in Alzheimer's and Parkinson's Patients. Integrating Frequentist and Bayesian Methods.
+                    <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+                        <li>
+                            <strong>Description:</strong> Developed a pipeline for identifying significantly differentially
+                            expressed proteins in proteomics datasets using a hybrid Frequentist-Bayesian approach.
+                            The workflow first applies Frequentist statistical tests (ANOVA, Welch’s test, Kruskal-Wallis)
+                            to screen significant proteins, followed by Bayesian inference for verification. It includes batch
+                            normalization, missing data handling, and log2 fold change analysis, ensuring robust results.
+                            The pipeline also integrates visualizations such as volcano plots and Bayesian posterior distributions
+                            to compare statistical methods and enhance interpretability.
+                        </li>
+                        <li><strong>Role:</strong>Sole Data Scientist.</li>
+                        <li><strong>Technologies:</strong>PyMC, Statsmodels, ArviZ, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn.</li>
+                        <li><strong>Duration:</strong>July 2021 - August 2021.</li>
+                        <li><strong>Team size:</strong>1.</li>
+                    </ul>
+                </li>
+            </ul>
+        ),
+
+        gallery: [
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337543/significance_vs_log2FC_ekraha.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337438/plot_2025-03-18_16-54-02_27_bd3k9h.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337432/plot_2025-03-18_16-54-02_28_o5iq7m.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337342/log2FC_btdqeg.png",
+        ],
+        github: "https://github.com/dailephd/DEA_Freq_Bayes/"
+    },
+
+    {
         title: "Deep learning for 16S rRNA gene copy number prediction",
         details: (
             <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
