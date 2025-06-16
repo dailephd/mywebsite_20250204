@@ -4,6 +4,8 @@ import Head from "next/head";
 import Link from 'next/link';
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
+import Script from 'next/script';
+
 
 import './globals.css';
 import { FaBars, FaTimes, FaHome, FaUser, FaBriefcase, FaTools, FaGraduationCap, FaProjectDiagram, FaBook, FaEnvelope } from 'react-icons/fa';
@@ -26,13 +28,25 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
         <Head>
-            {/* Google Tag Manager script */}
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-BG3BXNMPBG"></script>
-            <title>Dai Le's Home</title>
+            <title>Dai Le&apos;s Home</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="Landing" content="My Website" />
             <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         </Head>
+
+        {/* Google Tag Manager Script (must be outside <Head>) */}
+        <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-BG3BXNMPBG"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BG3BXNMPBG');
+        `}
+        </Script>
         <body className="m-0 p-0 flex-grow min-h-screen bg-gray-100">
 
         {/* Sidebar */}
