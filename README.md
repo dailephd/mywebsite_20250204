@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Dai Le's Personal Website
 
-## Getting Started
+This is the source code for my personal portfolio website built with **Next.js** and **Tailwind CSS**. It showcases my skills, experience, and selected projects in software engineering, data science, and computational biology.
 
-First, run the development server:
+## 🚀 Live Site
+
+👉 [https://dailephd.com](https://dailephd.com)
+
+## ✨ Features
+
+- Responsive design using Tailwind CSS
+- Animated transitions and fade-ins
+- Dynamic skill tooltips with proficiency bars
+- Project gallery with GitHub links
+- Sections for About Me, Experience, Education, Publications, and more
+- SEO optimization and Vercel Analytics integration
+
+## 🧰 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Tooltips**: [Floating UI](https://floating-ui.com/)
+
+## 📁 Project Structure
+```text
+.
+├── app
+│   ├── about
+│   │   └── page.js
+│   ├── api
+│   │   └── send-email
+│   ├── components
+│   │   ├── FloatingSkillToolTip.jsx
+│   │   └── GalleryModal.js
+│   ├── contact
+│   │   └── page.js
+│   ├── data
+│   │   └── projectsData.js
+│   ├── education
+│   │   └── page.js
+│   ├── experience
+│   │   └── page.js
+│   ├── globals.css
+│   ├── layout.js
+│   ├── page.js
+│   ├── projects
+│   │   └── page.js
+│   ├── publications
+│   │   └── page.js
+│   ├── skills
+│   │   └── page.js
+│   └── test-component.js
+├── CNAME
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── Procfile
+├── public
+│   ├── alien-moon.webp
+│   ├── Documents
+│   │   └── Certificates
+│   ├── favicon.ico
+│   ├── gradient.jpg
+│   ├── next.svg
+│   ├── non-representational.webp
+│   ├── radiant-waves.webp
+│   ├── subtle_scarf.jpeg
+│   └── vercel.svg
+├── README.md
+├── tailwind.config.js
+└── test.html
+
+16 directories, 32 files
+```
+## 🛠 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+git clone https://github.com/dailephd/mywebsite_20250204.git
+cd mywebsite_20250204
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
 
-You can start editing the page by modifying `app/route.js`. The page auto-updates as you edit the file.
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm install
+```
 
-## Learn More
+### 3. Run Locally
 
-To learn more about Next.js, take a look at the following resources:
+```bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Visit `http://localhost:3000` to see the site locally.
 
-## Deploy on Vercel
+## 📦 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This site is automatically deployed via [Vercel](https://vercel.com/) with each push to the `main` branch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+
+This project is for personal use. Feel free to explore and draw inspiration.
+
+---
