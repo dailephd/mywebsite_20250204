@@ -2,7 +2,7 @@ const projects = [
     {
         title: "Smart Tutor e-learning platform",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li><strong>Description:</strong> Developed a web application that allows users to upload text
                     materials, create tests, conduct evaluations, and view feedback. Evaluations are conducted
                     based on defined metrics. Users can also track their performance over time.
@@ -30,10 +30,7 @@ const projects = [
     {
         title: "Graph Neural Network to predict water depth level in a simulated sewage network.",
         details: (
-            <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
-                <li><strong>Project:</strong> Graph Neural Network to predict water depth level in a simulated
-                    sewage network.
-                    <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                         <li><strong>Description:</strong> Implemented 5 graph neural network models: GCNConv
                             ,GRU-GCNConv, GCNConv-LSTM, MPNN, GAT-Transformer on time series data of water depth levels in a
                             Storm Water Management Model (SWMM).
@@ -42,8 +39,6 @@ const projects = [
                         <li><strong>Technologies:</strong> PyTorch Geometric, Matplotlib, Plotly.</li>
                         <li><strong>Duration:</strong> January 2024 - April 2024.</li>
                         <li><strong>Team size:</strong> 1.</li>
-                    </ul>
-                </li>
             </ul>
         ),
         gallery: [
@@ -58,12 +53,40 @@ const projects = [
     },
 
     {
+        title: "Automated Differential Expression Analysis of the Human Brain " +
+            "Proteome in Alzheimer's and Parkinson's Patients. " +
+            "Integrating Frequentist and Bayesian Methods",
+        details: (
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
+                        <li>
+                            <strong>Description:</strong> Developed a pipeline for identifying significantly differentially
+                            expressed proteins in proteomics datasets using a hybrid Frequentist-Bayesian approach.
+                            The workflow first applies Frequentist statistical tests (ANOVA, Welch’s test, Kruskal-Wallis)
+                            to screen significant proteins, followed by Bayesian inference for verification. It includes batch
+                            normalization, missing data handling, and log2 fold change analysis, ensuring robust results.
+                            The pipeline also integrates visualizations such as volcano plots and Bayesian posterior distributions
+                            to compare statistical methods and enhance interpretability.
+                        </li>
+                        <li><strong>Role:</strong> Sole Data Scientist.</li>
+                        <li><strong>Technologies:</strong>PyMC, Statsmodels, ArviZ, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn.</li>
+                        <li><strong>Duration:</strong>July 2021 - August 2021.</li>
+                        <li><strong>Team size:</strong>1.</li>
+            </ul>
+        ),
+
+        gallery: [
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337543/significance_vs_log2FC_ekraha.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337438/plot_2025-03-18_16-54-02_27_bd3k9h.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337432/plot_2025-03-18_16-54-02_28_o5iq7m.png",
+            "https://res.cloudinary.com/dh8fw5mx5/image/upload/v1742337342/log2FC_btdqeg.png",
+        ],
+        github: "https://github.com/dailephd/DEA_Freq_Bayes/"
+    },
+
+    {
         title: "Deep learning for 16S rRNA gene copy number prediction",
         details: (
-            <ul className="first-level list-disc list-inside mt-2 space-y-1 text-gray-700">
-                <li>
-                    <strong>Project:</strong> Deep learning for 16S rRNA gene copy number prediction.
-                    <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                         <li>
                             <strong>Description:</strong> Implemented various deep learning models, including CNN,
                             RNN, Transformer, BERT, and hybrid models, to identify the optimal model for predicting
@@ -76,8 +99,6 @@ const projects = [
                         <li><strong>Technologies:</strong> TensorFlow, PyTorch, Scikit-learn, Matplotlib.</li>
                         <li><strong>Duration:</strong> September 2023 - August 2024.</li>
                         <li><strong>Team size:</strong> 2.</li>
-                    </ul>
-                </li>
             </ul>
         ),
     },
@@ -86,7 +107,7 @@ const projects = [
         title: "Dissociation kinetics of small-molecule inhibitors in " +
             "Escherichia coli is coupled to the physiological state of cells.",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li>
                     <strong>Description:</strong> The unbinding rate of Hoechst 33342 is not constant but depends on
                     the cell growth rate. This dependence is mediated by cellular activity, forming a feedback loop
@@ -108,7 +129,7 @@ const projects = [
     {
         title: "Active efflux leads to heterogeneous dissipation of proton motive force by protonophores in bacteria.",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li><strong>Description:</strong> E. coli cells responded heterogeneously to protonophores,
                     resulting in bimodal distributions of cell growth, substrate transport, and motility. This
                     heterogeneous response required active efflux systems. The response is driven by efflux-mediated
@@ -127,7 +148,7 @@ const projects = [
         title: "Distinct mechanisms coordinate transcription and translation under " +
             "carbon and nitrogen starvation in Escherichia coli.",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li><strong>Role:</strong> Second Co-Author.</li>
                 <li><strong>Methodology:</strong> Bacterial culture, strain construction with KEIO library, smFISH,
                     β-Galactosidase assay, automated image analysis with MATLAB, fluorescent labeling of proteins
@@ -141,7 +162,7 @@ const projects = [
     {
         title: "Antibiotic-induced population fluctuations and dynamics of bacterial heteroresistance to antibiotics.",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li><strong>Description:</strong> Eradicating bacteria with antibiotics is stochastic in nature.
                     Bactericidal antibiotics induced population fluctuations. At high concentrations, bacterial
                     clearance dynamics were heterogeneous. At low concentrations, clearance still occurred with a
@@ -160,7 +181,7 @@ const projects = [
     {
         title: "Endocytic regulation of RPE cell polarity and adhesion in eye development",
         details: (
-            <ul className="second-level list-inside mt-2 space-y-1 text-gray-700">
+            <ul className="list-inside mt-2 space-y-1 text-gray-700">
                 <li><strong>Description:</strong> Distributions of membrane proteins differ in embryonic,
                     post-natal, and mature mouse RPE, suggesting developmental regulation of protein trafficking.
                     Loss of Tsg101 severely disturbed the polarity of RPE, which forms irregular aggregates

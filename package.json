@@ -1,7 +1,8 @@
 {
   "name": "mywebsite",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,9 +14,13 @@
     "deploy": "gh-pages -d out -r git@github.com:dailephd/mywebsite_20250204.git"
   },
   "dependencies": {
+    "@floating-ui/react-dom": "^2.1.3",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.20",
+    "lucide-react": "^0.515.0",
     "next": "^15.1.6",
     "nodemailer": "^6.9.14",
     "react": "^18",
@@ -43,7 +48,7 @@
   },
   "homepage": "https://www.dailephd.com",
   "engines": {
-    "node": ">=20.0.0",
+    "node": ">=18.0.0",
     "npm": ">=8.0.0"
   }
 }

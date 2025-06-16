@@ -1,8 +1,16 @@
+# dependencies
 node_modules/
+
+# build outputs
 .next/
-.idea/
-out
+out/
+
+# environment variables
 .env
 
-out/
-.vercel
+# IDE settings
+.idea/
+
+# deployment
+.vercel/
+

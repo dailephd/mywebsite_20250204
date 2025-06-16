@@ -2,7 +2,7 @@
 
 export default function Education() {
     return (
-        <div className="container mx-auto py-16 px-6 animate-fadeIn">
+        <div className="container mx-auto py-2 px-6 animate-fadeIn">
             <h3 className="text-3xl font-semibold mb-8 text-gray-800 text-center">Education</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Degrees Section */}

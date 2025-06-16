@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from 'next/link';
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+
 import './globals.css';
 import { FaBars, FaTimes, FaHome, FaUser, FaBriefcase, FaTools, FaGraduationCap, FaProjectDiagram, FaBook, FaEnvelope } from 'react-icons/fa';
 
@@ -31,7 +33,7 @@ export default function RootLayout({ children }) {
             <meta name="Landing" content="My Website" />
             <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         </Head>
-        <body className="m-0 p-0 flex min-h-screen bg-gray-100">
+        <body className="m-0 p-0 flex-grow min-h-screen bg-gray-100">
 
         {/* Sidebar */}
         <nav className={`bg-white h-screen w-64 fixed top-0 left-0 shadow-lg z-50 flex-col items-center py-4 space-y-6 transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out sm:translate-x-0 sm:flex justify-center`}>
@@ -60,8 +62,9 @@ export default function RootLayout({ children }) {
         </nav>
 
         {/* Main Content with Left Padding for Sidebar */}
-        <main className="ml-0 sm:ml-64 flex-grow p-4 sm:p-8 bg-gray-100 min-h-screen transition-all duration-300 ease-in-out">
+        <main className="ml-0 sm:ml-64 flex-grow p-4 sm:p-4 bg-gray-100 min-h-screen transition-all duration-300 ease-in-out">
             {children}
+            <Analytics/>
         </main>
 
         </body>
