@@ -1,4 +1,4 @@
-// File: /media/dailephd/Windows/mywebsite_20250204/app/layout.js
+// File: /media/dailephd/Windows/mywebsite_20250225/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

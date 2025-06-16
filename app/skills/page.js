@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import FloatingSkillTooltip from "@/components/FloatingSkillToolTip.jsx";
 
 export default function Page() {
     const [hoveredSkill, setHoveredSkill] = useState(null);
@@ -400,7 +401,7 @@ export default function Page() {
     ];
 
     return (
-        <div className="container mx-auto py-16 px-6 animate-fadeIn">
+        <div className="container mx-auto py-2 px-6 animate-fadeIn">
             <h3 className="text-3xl font-semibold mb-8 text-gray-800 text-center">Skills</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -423,35 +424,16 @@ export default function Page() {
 
                                     <h5 className="text-xl font-semibold mb-4 text-gray-700">{subcategory.label}</h5>
 
-                                    <div className="flex flex-wrap">
+                                    <div className="flex flex-wrap gap-2">
                                         {subcategory.categories.map((category, catIndex) => (
-                                            <div key={catIndex} className="relative group m-1">
-                                            <span className="inline-block bg-blue-400 text-gray-700 py-2 px-4 rounded-full cursor-pointer transition duration-300 ease-in-out text-center">
-                                                {category.label}
-                                            </span>
-
-                                                {/* Hover effect to show skills */}
-                                                <div className="absolute left-0 top-full mt-2 w-64 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
-                                                    <div className="bg-white p-4 rounded shadow-lg w-full">
-                                                        {category.skills.map((skill, skillIndex) => (
-                                                            <div key={skillIndex} className="relative mb-2">
-                                                                <span className="block text-gray-700 mb-1">{skill.name}</span>
-                                                                <div className="h-2 bg-gray-300 rounded w-full relative">
-                                                                    <div
-                                                                        className="h-full bg-green-500 rounded"
-                                                                        style={{ width: `${skill.proficiency}%` }}
-                                                                    ></div>
-                                                                    <span className="absolute top-[-20px] right-0 text-sm font-semibold text-gray-700">
-                                                                    {skill.proficiency}%
-                                                                </span>
-                                                                </div>
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <FloatingSkillTooltip
+                                                key={catIndex}
+                                                label={category.label}
+                                                skills={category.skills}
+                                            />
                                         ))}
                                     </div>
+
                                 </div>
                             ))}
                         </div>

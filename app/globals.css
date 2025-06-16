@@ -15,7 +15,6 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --navbar-height: 3rem; /* Changed from 45px to 3rem for responsiveness */
 }
 
 /* Ensure body scales well on all devices */
@@ -120,11 +119,7 @@ body {
   padding: 0;
 }
 
-/* Ensure consistent navbar height across devices */
-main {
-  flex-grow: 1;
-  padding-top: var(--navbar-height);
-}
+
 
 /* Neon effects with relative units for consistent shadows */
 .neon-effect-pink {

@@ -31,7 +31,7 @@ export default function Experience() {
     return (
         <div className="min-h-screen flex flex-col bg-gray-100 animate-fadeIn">
             {/* Header Section - Fixed at the Top */}
-            <div className="py-12 px-6">
+            <div className="py-2 px-6">
                 <h3 className="text-3xl font-semibold text-gray-800 text-center">Experience</h3>
             </div>
 

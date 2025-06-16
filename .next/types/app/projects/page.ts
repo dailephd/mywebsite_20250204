@@ -1,4 +1,4 @@
-// File: /media/dailephd/Windows/mywebsite_20250204/app/projects/page.js
+// File: /media/dailephd/Windows/mywebsite_20250225/app/projects/page.js
 import * as entry from '../../../../app/projects/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
