@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import {useState} from 'react';
 import FloatingSkillTooltip from "@/components/FloatingSkillToolTip.jsx";
 
 export default function Page() {
@@ -237,7 +237,7 @@ export default function Page() {
                             skills: [
                                 {name: "Single-molecule FISH", proficiency: 70},
                                 {name: "Single-cell fluorescent microscopy", proficiency: 90},
-                                {name: <>Single-cell time-lapse<br />imaging</>, proficiency: 90},
+                                {name: <>Single-cell time-lapse<br/>imaging</>, proficiency: 90},
                                 {name: "Single-cell image analysis with Fiji, MicrobeJ", proficiency: 90}
                             ]
                         },
@@ -303,10 +303,10 @@ export default function Page() {
                         {
                             label: "Core Analytical Skills",
                             skills: [
-                                { name: "Problem Solving", proficiency: 90 },
-                                { name: "Critical Thinking", proficiency: 90 },
-                                { name: "Logical Reasoning", proficiency: 85 },
-                                { name: "Analytical Thinking", proficiency: 85 }
+                                {name: "Problem Solving", proficiency: 90},
+                                {name: "Critical Thinking", proficiency: 90},
+                                {name: "Logical Reasoning", proficiency: 85},
+                                {name: "Analytical Thinking", proficiency: 85}
                             ]
                         }
                     ]
@@ -317,9 +317,9 @@ export default function Page() {
                         {
                             label: "Planning and Execution",
                             skills: [
-                                { name: "Project Management", proficiency: 80 },
-                                { name: "Task Prioritization", proficiency: 85 },
-                                { name: "Time Management", proficiency: 90 },
+                                {name: "Project Management", proficiency: 80},
+                                {name: "Task Prioritization", proficiency: 85},
+                                {name: "Time Management", proficiency: 90},
                             ]
                         }
                     ]
@@ -330,18 +330,18 @@ export default function Page() {
                         {
                             label: "Teamwork and Leadership",
                             skills: [
-                                { name: "Teamwork", proficiency: 85 },
-                                { name: "Leadership", proficiency: 80 },
-                                { name: "Negotiation", proficiency: 70 }
+                                {name: "Teamwork", proficiency: 85},
+                                {name: "Leadership", proficiency: 80},
+                                {name: "Negotiation", proficiency: 70}
                             ]
                         },
                         {
                             label: "Communication Skills",
                             skills: [
-                                { name: "Verbal Communication", proficiency: 70 },
-                                { name: "Written Communication", proficiency: 90 },
-                                { name: "Presentation Skills", proficiency: 80 },
-                                { name: "Public Speaking", proficiency: 70 }
+                                {name: "Verbal Communication", proficiency: 70},
+                                {name: "Written Communication", proficiency: 90},
+                                {name: "Presentation Skills", proficiency: 80},
+                                {name: "Public Speaking", proficiency: 70}
                             ]
                         }
                     ]
@@ -352,18 +352,18 @@ export default function Page() {
                         {
                             label: "Self-Management",
                             skills: [
-                                { name: "Conscientiousness", proficiency: 90 },
-                                { name: "Self-Discipline", proficiency: 95 },
-                                { name: "Multi-Tasking", proficiency: 90 }
+                                {name: "Conscientiousness", proficiency: 90},
+                                {name: "Self-Discipline", proficiency: 95},
+                                {name: "Multi-Tasking", proficiency: 90}
                             ]
                         },
                         {
                             label: "Professional Skills",
                             skills: [
-                                { name: "Adaptability", proficiency: 90 },
-                                { name: "Lifelong Learning", proficiency: 85 },
-                                { name: "Flexibility", proficiency: 90 },
-                                { name: "Innovation and Creativity", proficiency: 85 }
+                                {name: "Adaptability", proficiency: 90},
+                                {name: "Lifelong Learning", proficiency: 85},
+                                {name: "Flexibility", proficiency: 90},
+                                {name: "Innovation and Creativity", proficiency: 85}
                             ]
                         }
                     ]
@@ -374,10 +374,10 @@ export default function Page() {
                         {
                             label: "Ethical Practice",
                             skills: [
-                                { name: "Ethical Decision Making", proficiency: 80 },
-                                { name: "Integrity", proficiency: 90 },
-                                { name: "Professionalism", proficiency: 95 },
-                                { name: "Accountability", proficiency: 90 }
+                                {name: "Ethical Decision Making", proficiency: 80},
+                                {name: "Integrity", proficiency: 90},
+                                {name: "Professionalism", proficiency: 95},
+                                {name: "Accountability", proficiency: 90}
                             ]
                         }
                     ]
@@ -388,10 +388,10 @@ export default function Page() {
                         {
                             label: "Quantitative Skills",
                             skills: [
-                                { name: "Statistical Analysis", proficiency: 85 },
-                                { name: "Data Interpretation", proficiency: 95 },
-                                { name: "Research Methods", proficiency: 90 },
-                                { name: "Data Visualization", proficiency: 85 }
+                                {name: "Statistical Analysis", proficiency: 85},
+                                {name: "Data Interpretation", proficiency: 95},
+                                {name: "Research Methods", proficiency: 90},
+                                {name: "Data Visualization", proficiency: 85}
                             ]
                         }
                     ]
@@ -442,7 +442,6 @@ export default function Page() {
             </div>
         </div>
     );
-
 
 
 }

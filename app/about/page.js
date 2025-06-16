@@ -24,7 +24,7 @@ export default function About() {
                     statistical thinking.
                 </p>
                 <p>
-                    I'm especially motivated by challenges in medicine, healthcare, and
+                    I&apos;m especially motivated by challenges in medicine, healthcare, and
                     life sciences—domains where technology can make a real impact. I’ve
                     built projects ranging from AI-powered educational platforms to
                     predictive models for environmental systems and biological datasets.
